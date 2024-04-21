@@ -1,0 +1,29 @@
+{
+    "Pathfinder": {
+        "checkpoints": [
+            {
+                "steps": 13244,
+                "file_path": "results\\Pathfinder3\\Pathfinder\\Pathfinder-13244.onnx",
+                "reward": null,
+                "creation_time": 1713568635.1158557,
+                "auxillary_file_paths": [
+                    "results\\Pathfinder3\\Pathfinder\\Pathfinder-13244.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 13244,
+            "file_path": "results\\Pathfinder3\\Pathfinder.onnx",
+            "reward": null,
+            "creation_time": 1713568635.1158557,
+            "auxillary_file_paths": [
+                "results\\Pathfinder3\\Pathfinder\\Pathfinder-13244.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.2.2+cpu"
+    }
+}

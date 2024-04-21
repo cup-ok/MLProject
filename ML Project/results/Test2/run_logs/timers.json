@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1713518065",
+        "python_version": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Konstantin\\Documents\\Unity Projects\\ML Project\\venv\\Scripts\\mlagents-learn --run-id=Test2 --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1713518069"
+    },
+    "total": 3.834889800000383,
+    "count": 1,
+    "self": 0.010134299998753704,
+    "children": {
+        "run_training.setup": {
+            "total": 0.020791200000530807,
+            "count": 1,
+            "self": 0.020791200000530807
+        },
+        "TrainerController.start_learning": {
+            "total": 3.8039643000010983,
+            "count": 1,
+            "self": 0.00015259999781847,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 3.7169576000014786,
+                    "count": 1,
+                    "self": 3.7169576000014786
+                },
+                "trainer_threads": {
+                    "total": 8.00002453615889e-07,
+                    "count": 1,
+                    "self": 8.00002453615889e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.08685329999934766,
+                    "count": 1,
+                    "self": 0.004130699999222998,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.08272260000012466,
+                            "count": 1,
+                            "self": 0.08272260000012466
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
